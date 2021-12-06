@@ -12,18 +12,24 @@ export class Auth
             email,
             password
         });
-        return data.status == "success";
+        if(data.errors)
+        {
+            return false;
+        }else return data.status == "success";
     };
     public static async register(username: String,usersurname: String,email: String, password: String) : Promise<boolean>
     {
         try{
-            await axios.post(route.register,{
+            let u = await axios.post(route.register,{
                 name: username,
                 surname: usersurname,
                 email,
                 password
             });
-            return true;
+            if(u.data.errors)
+            {
+                return false;
+            }else return true;
         }catch(i){
             return false;
         }

@@ -72,11 +72,11 @@ export default class RegisterPage extends React.Component<React.HTMLAttributes<H
                 <div className="form-group row">
                     <div className="col-md-6">
                         <label>E-Posta Adresi</label>
-                        <input type="text" className="form-control" value={this.val("email")} onChange={e => this.val("email",e.target.value)}/>
+                        <input type="email" className="form-control" value={this.val("email")} onChange={e => this.val("email",e.target.value)}/>
                     </div>
                     <div className="col-md-6">
                         <label>Şifreniz</label>
-                        <input type="text" className="form-control" value={this.val("password")} onChange={e => this.val("password",e.target.value)}/>
+                        <input type="password" className="form-control" value={this.val("password")} onChange={e => this.val("password",e.target.value)}/>
                     </div>
                 </div>
                 <div className="form-group row">

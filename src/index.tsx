@@ -46,7 +46,7 @@ export default class PageLoader extends React.Component<React.HTMLAttributes<HTM
         switch(this.state.page)
         {
             case "loading":{
-                return <SpinLoader />
+                return <SpinLoader className="m-auto" />
             }
             case "login":{
                 return <LoginPage setPage={name => this.setPage(name)} />
