@@ -18,4 +18,4 @@ Features used in this project:
 * TypeScript ([Detail](https://www.typescriptlang.org/) )
 * Bootstrap for UI ([Detail](https://getbootstrap.com/) )
 
-#Thanks @abdussamedulutas
+#Thanks [@abdussamedulutas](https://github.com/abdussamedulutas)
