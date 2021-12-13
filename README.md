@@ -17,3 +17,5 @@ Features used in this project:
 * ReactJs ([Detail](https://tr.reactjs.org/) )
 * TypeScript ([Detail](https://www.typescriptlang.org/) )
 * Bootstrap for UI ([Detail](https://getbootstrap.com/) )
+
+#Thanks @abdussamedulutas
